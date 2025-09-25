@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from AWS Elastic Beanstalk!"
+    return "Hello from AWS Elastic Beanstalk app2!"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
